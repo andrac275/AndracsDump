@@ -1,14 +1,3 @@
-console.log()
-const siguiente = x => x+1
-const anterior = x => x-1
-const doble     = x => x*2
-const mitad    = x => x/2
-const compose = (a,b) => c => a(b(c))
-console.log(a.map(compose(doble,anterior)))
-console.log(a.map(compose(mitad,siguiente)))
-
-console.log()
-
 function sumScan(a){
     let b=[]
     let acumulador = 0
